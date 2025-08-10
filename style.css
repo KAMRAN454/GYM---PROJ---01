@@ -1,0 +1,121 @@
+body {
+        font-family: "Playpen Sans", cursive;
+        font-weight: bolder;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        /*border: 2px solid red;*/
+        position: absolute;
+        left: 50px;
+        top: 10px;
+    }
+
+    .left img {
+        width: 130px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .mid {
+        
+        margin: 20px auto;
+        display: block;
+        width: 52%;
+        /*border: 2px solid green;*/
+    }
+
+    .right {
+        position: fixed;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid yellow;*/
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: red;
+    }
+
+    .btn {
+        margin: 15px 19px;
+        background-color: transparent;
+        color: rgb(239, 239, 239);
+        padding: 4px 10px;
+        border: 1px solid black;
+        border-radius: 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: red;
+
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 106px 471px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+
+    }
+
+    .form-group input {
+        font-weight: bolder;
+        font-family: "Playpen Sans", cursive;
+        text-align: center;
+        display: block;
+        width: 445px;
+        padding: 13px;
+        border: 2px solid black;
+        margin: 8px auto;
+        border-radius: 51px
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 58%;
+        margin: auto;
+        padding: 9px 50px;
+        border-radius: 25px;
+    }
+    .form-group ::placeholder{
+        font-size: large;
+        font-weight: 800;
+    }
